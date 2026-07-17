@@ -1,0 +1,223 @@
+      <!-- Visible Residential Grid Items -->
+      <div class="portfolio-grid residential-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; width: 100%;">
+        <div class="portfolio-item">
+          <img src="team 360 fav pic/A9P03058.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+        </div>
+        <div class="portfolio-item">
+          <img src="team 360 fav pic/A9P03068.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+        </div>
+        <div class="portfolio-item">
+          <img src="team 360 fav pic/A9P03088.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+        </div>
+      </div>
+
+      <!-- Inline Content Injection container right below the primary grid -->
+      <div class="portfolio-hidden-wrapper" style="display: none; width: 100%; margin-top: 16px;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; width: 100%;">
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03089.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03091.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03094.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03099.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03101.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03113.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03128.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03145.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03147.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03165.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03168.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03174.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03206.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03245.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03247.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03285.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03314.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03324.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03329.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03354.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03360.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03374.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03381.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03418.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03464.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P03479.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04266.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04271.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04311.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04328.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04383.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04384.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04404.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04408.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04417.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04419.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04421.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04427.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04445.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04446.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/A9P04447.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-1.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-102 - Copy.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-107.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-113.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-117.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-142.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-16.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-160.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-173.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-2.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-28.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-36.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-37.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-40.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-51.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-53.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-56.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-62.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-68.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-81.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-82.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-87 - Copy.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-88.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-89.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-94.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+          <div class="portfolio-item">
+            <img src="team 360 fav pic/Cinematrix Production CC-99.jpg" alt="Luxury Interior" class="portfolio-img-fixed">
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-action-wrapper" style="text-align: center; margin-top: 30px; width: 100%;">
+        <button class="see-more-btn portfolio-toggle-trigger" style="background: transparent; color: var(--color-text); padding: 1rem 3rem; border: 1px solid var(--border-subtle); cursor: pointer; text-transform: uppercase; letter-spacing: 0.15em;">See More</button>
+      </div>
