@@ -2524,3 +2524,30 @@ button, a, .category-card, .image-square-wrapper, .commercial-item, .nav-link, .
 }
 
 /* File End */
+
+/* EXTENDED MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+  .blueprint-grid, .ideology-grid, .mindset-split {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+  .mindset-divider { display: none !important; }
+  .services-grid { gap: 1.5rem !important; }
+  .service-item { 
+    flex-direction: column !important; 
+    gap: 0.5rem !important; 
+    align-items: flex-start !important; 
+  }
+  .service-name { font-size: 2rem !important; }
+  .awards-timeline-widget {
+    flex-direction: column !important;
+    gap: 2.5rem !important;
+    overflow-x: visible !important;
+  }
+  .blueprint-section, .ideology-section, .services-section {
+    padding: 4rem 0 !important;
+  }
+  .about-right { padding: 3rem 1.5rem !important; }
+  .ideology-header, .services-title { font-size: 2rem !important; margin-bottom: 2rem !important; }
+  .studio-profile-img { height: 350px !important; }
+}
