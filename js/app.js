@@ -573,33 +573,4 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   });
 
-  // --- Asynchronous Sequential Image Preloader ---
-  // Preloads all portfolio images one by one AFTER the main page load.
-  // Stops lag on phones but allows instant opening of portfolio items!
-  window.addEventListener('load', () => {
-    const allImages = [];
-    document.querySelectorAll('.portfolio-img-uncropped').forEach(img => {
-      const src = img.getAttribute('data-fullsrc') || img.src;
-      if (src && !allImages.includes(src)) {
-        allImages.push(src);
-      }
-    });
-
-    let index = 0;
-    function preloadNextImage() {
-      if (index >= allImages.length) return;
-      
-      setTimeout(() => {
-        const tempImg = new Image();
-        tempImg.onload = preloadNextImage;
-        tempImg.onerror = preloadNextImage;
-        tempImg.src = allImages[index];
-        index++;
-      }, 500); // 500ms pause to give the phone's CPU time to breathe
-    }
-
-    // Start preloading after 3s to let the phone fully finish loading the page first
-    setTimeout(preloadNextImage, 3000);
-  });
-
 }); // END DOMContentLoaded
