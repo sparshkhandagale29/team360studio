@@ -1578,6 +1578,10 @@
   }
 
   /* Collapse founders side-by-side to stacked */
+  .about-right {
+    padding-top: clamp(80px, 12vh, 140px);
+  }
+
   .founders-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
