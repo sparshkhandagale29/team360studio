@@ -147,7 +147,7 @@
   flex-direction: column;
   gap: 7px;
   cursor: none;
-  z-index: 1100;
+  z-index: 999999 !important;
   padding: 4px;
 }
 
@@ -173,7 +173,7 @@
   position: fixed;
   inset: 0;
   background: var(--color-bg);
-  z-index: 999;
+  z-index: 999998 !important;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -198,6 +198,10 @@
 .mobile-menu.open {
   pointer-events: all;
   opacity: 1;
+}
+
+body:has(.mobile-menu.open) .sticky-contact-widget {
+  display: none !important;
 }
 
 .mobile-nav-link {
