@@ -364,7 +364,18 @@ document.addEventListener('DOMContentLoaded', () => {
       // Dynamically populate images
       if (modalGrid) {
         modalGrid.innerHTML = '';
-        const images = categoryData[categoryName.toUpperCase()];
+        
+        // Find matching key robustly (case-insensitive, space/hyphen agnostic)
+        const targetName = categoryName.toUpperCase().replace(/\s+/g, '-');
+        let matchedKey = null;
+        for (const key in categoryData) {
+          if (key.toUpperCase().replace(/\s+/g, '-') === targetName || key.toUpperCase() === categoryName.toUpperCase()) {
+            matchedKey = key;
+            break;
+          }
+        }
+        
+        const images = matchedKey ? categoryData[matchedKey] : [];
         if (images && images.length > 0) {
           images.forEach(src => {
             const img = document.createElement('img');
