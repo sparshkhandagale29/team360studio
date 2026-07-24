@@ -368,14 +368,14 @@ document.addEventListener('DOMContentLoaded', () => {
         // Find matching key robustly (case-insensitive, space/hyphen agnostic)
         const targetName = categoryName.toUpperCase().replace(/\s+/g, '-');
         let matchedKey = null;
-        for (const key in categoryData) {
+        for (const key in categoryAssets) {
           if (key.toUpperCase().replace(/\s+/g, '-') === targetName || key.toUpperCase() === categoryName.toUpperCase()) {
             matchedKey = key;
             break;
           }
         }
         
-        const images = matchedKey ? categoryData[matchedKey] : [];
+        const images = matchedKey ? categoryAssets[matchedKey] : [];
         if (images && images.length > 0) {
           images.forEach(src => {
             const img = document.createElement('img');
