@@ -381,7 +381,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const img = document.createElement('img');
             img.src = src;
             img.alt = categoryName;
-            img.className = 'modal-grid-item portfolio-img-uncropped';
+            img.className = 'portfolio-img-uncropped';
             img.loading = 'lazy';
             img.setAttribute('data-fullsrc', src);
             modalGrid.appendChild(img);
