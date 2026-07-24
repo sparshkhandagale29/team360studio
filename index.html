@@ -206,9 +206,12 @@
 
 
       <!-- Founders -->
-      <div class="founders-grid">
+      <div class="founders-grid" style="display: flex; gap: 40px; align-items: stretch; justify-content: center; flex-wrap: wrap; text-align: left;">
         <!-- Gaurav -->
-        <div class="founder-card fade-up fade-up-delay-3">
+        <div class="founder-card fade-up fade-up-delay-3" style="flex: 1; min-width: 300px; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;">
+          <div class="founder-image-wrapper" style="width: 100%; aspect-ratio: 4/5; overflow: hidden; margin-bottom: 1.5rem; border: 1px solid rgba(255,255,255,0.1);">
+            <img src="assets/founders/founder1.jpg" alt="Gaurav V. Dubewar" style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
           <h3>Gaurav V. Dubewar</h3>
           <div class="founder-title">Founding Director</div>
           <div class="founder-tags">
@@ -224,7 +227,10 @@
         </div>
 
         <!-- Rishav -->
-        <div class="founder-card fade-up fade-up-delay-4">
+        <div class="founder-card fade-up fade-up-delay-4" style="flex: 1; min-width: 300px; display: flex; flex-direction: column; align-items: flex-start; justify-content: flex-start;">
+          <div class="founder-image-wrapper" style="width: 100%; aspect-ratio: 4/5; overflow: hidden; margin-bottom: 1.5rem; border: 1px solid rgba(255,255,255,0.1);">
+            <img src="assets/founders/founder2.jpg" alt="Rishav V. Bansal" style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
           <h3>Rishav V. Bansal</h3>
           <div class="founder-title">Founding Director</div>
           <div class="founder-tags">
@@ -699,7 +705,7 @@
 <!-- ==============================
      APP JAVASCRIPT
 ============================== -->
-<script src="js/app.js" defer></script>
+<script src="js/app.js?v=3" defer></script>
 
   <!-- Category Modal Mirror Overlay -->
   <div id="category-modal-overlay" class="modal-overlay" style="display: none;">
@@ -715,7 +721,7 @@
   </div>
 
   <!-- Full-Screen Interactive Lightbox Preview Modal Overlay -->
-  <div id="portfolio-lightbox" class="lightbox-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.95); z-index: 99999; justify-content: center; align-items: center; cursor: zoom-out;">
+  <div id="portfolio-lightbox" class="lightbox-overlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.95); z-index: 99999999; justify-content: center; align-items: center; cursor: zoom-out;">
     <span class="lightbox-close" style="position: absolute; top: 20px; right: 30px; color: #ffffff; font-size: 50px; font-weight: 200; cursor: pointer; user-select: none;">&times;</span>
     <img id="lightbox-target-img" src="" alt="Full Resolution Detail Preview" style="max-width: 95%; max-height: 90%; object-fit: contain; border-radius: 4px; box-shadow: 0 20px 60px rgba(0,0,0,0.75); transition: transform 0.3s ease, opacity 0.3s ease;">
   </div>
