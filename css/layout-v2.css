@@ -439,13 +439,13 @@ body:has(.mobile-menu.open) .sticky-contact-widget {
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  min-height: 100vh;
+  align-items: stretch;
 }
 
 .about-left {
-  position: sticky;
-  top: 0;
-  height: 100vh;
+  position: relative;
+  height: 100%;
+  min-height: 500px;
   overflow: hidden;
 }
 
@@ -1570,19 +1570,8 @@ body:has(.mobile-menu.open) .sticky-contact-widget {
 
 /* 960px — Tablet landscape */
 @media (max-width: 960px) {
-  .about-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .about-left {
-    position: relative;
-    height: 60vw;
-    max-height: 420px;
-  }
-
-  /* Collapse founders side-by-side to stacked */
+  /* Keep founders side-by-side or stacked depending on preference, but we'll leave it for now */
   .founders-grid {
-    grid-template-columns: 1fr;
     gap: 2rem;
   }
 
@@ -1655,17 +1644,6 @@ body:has(.mobile-menu.open) .sticky-contact-widget {
     gap: 12px !important;
   }
 
-  .founders-grid {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 32px !important;
-  }
-  .founder-card {
-    width: 100% !important;
-    border-left: none !important;
-    padding-left: 0 !important;
-  }
 }
 
 /* 480px — Mobile */
