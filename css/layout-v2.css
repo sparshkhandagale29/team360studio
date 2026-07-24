@@ -439,17 +439,16 @@ body:has(.mobile-menu.open) .sticky-contact-widget {
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
-  gap: 40px;
+  align-items: stretch;
+  gap: clamp(36px, 6vw, 90px);
+  padding: clamp(80px, 12vh, 140px) clamp(36px, 6vw, 90px);
 }
 
 .about-left {
   position: relative;
   width: 100%;
-  aspect-ratio: 3/4;
-  max-height: 80vh;
+  border-radius: 12px;
   overflow: hidden;
-  border-radius: 8px;
 }
 
 .about-left img {
@@ -485,10 +484,10 @@ body:has(.mobile-menu.open) .sticky-contact-widget {
 }
 
 .about-right {
-  padding: clamp(80px, 12vh, 140px) clamp(36px, 6vw, 90px);
   display: flex;
   flex-direction: column;
   gap: 64px;
+  justify-content: center;
 }
 
 /* ===========================
