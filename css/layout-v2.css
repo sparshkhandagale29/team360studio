@@ -447,7 +447,6 @@ body:has(.mobile-menu.open) .sticky-contact-widget {
 .about-left {
   position: relative;
   width: 100%;
-  border-radius: 12px;
   overflow: hidden;
 }
 
